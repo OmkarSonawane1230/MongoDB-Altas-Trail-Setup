@@ -33,27 +33,27 @@ app.get('/allocationView', (req, res) => {
 })
 
 app.get('/avalibilityFile', (req, res) => {
-    res.sendFile(path.join(__dirname, '/pages/home.html'))
+    res.sendFile(path.join(__dirname, '/pages/avalibilityFile.html'))
 })
 
 app.get('/avalibilityView', (req, res) => {
-    res.sendFile(path.join(__dirname, '/pages/home.html'))
+    res.sendFile(path.join(__dirname, '/pages/avalibilityView.html'))
 })
 
 app.get('/fileView', (req, res) => {
-    res.sendFile(path.join(__dirname, '/pages/home.html'))
+    res.sendFile(path.join(__dirname, '/pages/fileView.html'))
 })
 
 app.get('/planDetails', (req, res) => {
-    res.sendFile(path.join(__dirname, '/pages/home.html'))
+    res.sendFile(path.join(__dirname, '/pages/planDetails.html'))
 })
 
 app.get('/registration', (req, res) => {
-    res.sendFile(path.join(__dirname, '/pages/home.html'))
+    res.sendFile(path.join(__dirname, '/pages/registration.html'))
 })
 
 app.get('/serviceProviderLogin', (req, res) => {
-    res.sendFile(path.join(__dirname, '/pages/home.html'))
+    res.sendFile(path.join(__dirname, '/pages/serviceProviderLogin.html'))
 })
 
 // parse request to body-parser
