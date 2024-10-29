@@ -23,7 +23,7 @@
 
 const mongoose = require('mongoose');
 
-const mongoURI = "mongodb+srv://jadhavviraj270:gVGYBImb84ngbses@cluster0.ip1fc.mongodb.net/test?retryWrites=true&w=majority";
+const mongoURI = "mongodb+srv://admin:admin123@diskmanagement.yh8ch.mongodb.net/?retryWrites=true&w=majority&appName=diskmanagement";
 
 // const mongoURI = "mongodb+srv://nehapawar161005:neha%40123@cluster0.ip1fc.mongodb.net/test?retryWrites=true&w=majority";
 
