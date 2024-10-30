@@ -10,18 +10,22 @@ exports.create = (req,res)=>{
 
     // new user
     const user = new Userdb({
-        name : req.body.name,
-        email : req.body.email,
+        name: req.body.name,
+        dob: req.body.dob,
+        mobile: req.body.mobile,
+        username: req.body.username,
+        email: req.body.email,
         gender: req.body.gender,
-        status : req.body.status
+        location: req.body.location,
+        password: req.body.password,
+        confirmPassword: req.body.confirmPassword
     })
 
     // save user in the database
     user
         .save(user)
         .then(data => {
-            //res.send(data)
-            res.redirect('/add-user');
+            res.redirect('/');
         })
         .catch(err =>{
             res.status(500).send({
